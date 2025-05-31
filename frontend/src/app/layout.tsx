@@ -8,12 +8,6 @@ const vazirmatnSans = Vazirmatn({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "اقتصاد برای مردم | Economics for the People",
-  description:
-    "آموزش مفاهیم اقتصادی به زبان ساده برای همه | مقالات، تحلیل‌ها و آموزش‌های کاربردی اقتصاد به همراه اخبار و رویدادهای اقتصادی روز",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
